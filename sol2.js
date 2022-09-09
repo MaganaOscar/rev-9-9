@@ -31,7 +31,6 @@ function maxSubArraySum(input) {
             if(subArrMax > max) {
                 max = subArrMax;
                 subArr = thisSubArr;
-                console.log(subArr);
             }
         }
         subArrSize++;
